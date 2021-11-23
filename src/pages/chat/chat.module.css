@@ -1,0 +1,7 @@
+.chatHisotry{
+    height: calc(100vh - 11rem);
+}
+
+.userList{
+    height: calc(100vh - 14rem);
+}

@@ -1,0 +1,10 @@
+@import "../../styles/mixins.scss";
+.container{
+    height: calc(100vh - 12rem);
+    .itemContainer{
+        height: calc(100vh - 14rem);
+        @include aboveWidth(1850px){
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+    }
+}

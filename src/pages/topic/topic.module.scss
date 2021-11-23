@@ -1,0 +1,8 @@
+@import "../../styles/mixins.scss";
+
+.container{
+    height: calc(100vh - 9rem);
+    @include aboveWidth(1850px){
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
